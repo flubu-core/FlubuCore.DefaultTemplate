@@ -9,6 +9,9 @@ namespace BuildScript
     {
         [SolutionFileName]
         public string SolutionFileName { get; set; } = "{{SolutionFileName}}";
+        
+        [BuildConfiguration]
+        public string BuildConfiguration { get; set; } = "Release";
 
         protected override void ConfigureTargets(ITaskContext context)
         {
