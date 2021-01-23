@@ -2,7 +2,11 @@
 	"Tokens": [
 		{
 			"Token": "{{SolutionFileName}}",
-			"Description": "Enter relative path to solution filename:",			
+			"Description": "Enter relative path to solution filename:",		
+            "InputType": Files,		
+			"Files": { // Options for 'Files' InputType.
+                "AllowedFileExtension": "sln" // Allowed file extension to be entered in interactive mode.
+            }			
 		}
 	]
 }
