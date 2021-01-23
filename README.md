@@ -1,1 +1,1 @@
-# EmptyTemplate
+# FlubuCore DefaultTemplate
