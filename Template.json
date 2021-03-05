@@ -8,5 +8,6 @@
                 "AllowedFileExtension": "sln" // Allowed file extension to be entered in interactive mode.
             }			
 		}
-	]
+	],
+	"SkipFiles" : ["README.md", "Template.json"]
 }
