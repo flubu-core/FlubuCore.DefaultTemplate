@@ -5,11 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FlubuCore" Version="6.3.2" />
+    <PackageReference Include="FlubuCore" Version="8.0.0" />
   </ItemGroup>
-
-  <ItemGroup>
-    <DotNetCliToolReference Include="dotnet-flubu" Version="6.3.2" />
-  </ItemGroup>
-
 </Project>
